@@ -1,0 +1,44 @@
+entropy: 1.5848689222
+{'Iris-virginica': 41, 'Iris-setosa': 41, 'Iris-versicolor': 42}
+Petal Length >= 3.0
+| entropy: 0.999895287419
+| {'Iris-virginica': 41, 'Iris-versicolor': 42}
+| Petal Width >= 1.7
+| | entropy: 0.172036949353
+| | {'Iris-virginica': 38, 'Iris-versicolor': 1}
+| | Petal Length >= 4.9
+| | | entropy: 0
+| | | {'Iris-virginica': 35}
+| | Petal Length < 4.9
+| | | entropy: 0.811278124459
+| | | {'Iris-virginica': 3, 'Iris-versicolor': 1}
+| | | Sepal Width >= 3.2
+| | | | entropy: 0
+| | | | {'Iris-versicolor': 1}
+| | | Sepal Width < 3.2
+| | | | entropy: 0
+| | | | {'Iris-virginica': 3}
+| Petal Width < 1.7
+| | entropy: 0.359101625649
+| | {'Iris-virginica': 3, 'Iris-versicolor': 41}
+| | Petal Length >= 5.0
+| | | entropy: 0.811278124459
+| | | {'Iris-virginica': 3, 'Iris-versicolor': 1}
+| | | Sepal Length >= 6.1
+| | | | entropy: 0
+| | | | {'Iris-virginica': 2}
+| | | Sepal Length < 6.1
+| | | | entropy: 1.0
+| | | | {'Iris-virginica': 1, 'Iris-versicolor': 1}
+| | | | Sepal Width >= 2.7
+| | | | | entropy: 0
+| | | | | {'Iris-versicolor': 1}
+| | | | Sepal Width < 2.7
+| | | | | entropy: 0
+| | | | | {'Iris-virginica': 1}
+| | Petal Length < 5.0
+| | | entropy: 0
+| | | {'Iris-versicolor': 40}
+Petal Length < 3.0
+| entropy: 0
+| {'Iris-setosa': 41}

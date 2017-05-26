@@ -1,0 +1,7 @@
+Accuracy = 96% (1/25 misclassified)
+
+
+Confusion Matrix
+
+				   Prediccted
+				Setosa	   Versicolor	Virginica	Setosa		  9		0	    0Actual	versicolor	  0		7	    1	Virginica	  0		0	    9
